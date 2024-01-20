@@ -1,0 +1,82 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #10100f;
+}
+
+body.correct{
+  color:#1a1919
+}
+
+body.wrong{
+  color:#1a1919
+}
+
+ 
+
+.quiz-container {
+  width: 800px;
+  max-width: 80%;
+  background-color: #eeeded;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  
+  border: 1px solid hsl(0, 15%, 88%);
+  background-color: hsl(41, 74%, 50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #1a1919;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn.correct{
+  color:#1a1919
+}
+
+.btn.wrong{
+  color:#1a1919
+}
+
+.start-btn, .next-btn, .depress-btn, .med-btn, .anxiety-btn, .mma-btn, .law-btn{
+  border-color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+

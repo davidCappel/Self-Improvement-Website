@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planner Page</title>
+    <link href="../css/articlehubpage.css" rel="stylesheet" type="text/css">
+    <!--Google Fonts Pre Connect-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Font Imports-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!--Stylesheet files-->
+    <link rel="stylesheet" type="text/css" href="../css/PlannerCSS.css">
+</head>
+<body>
+    <div class="headerInfo">
+        <section class="navbar-sectionsize">
+            <!-- Navigation-->
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html"><img src="../myassets/selfimplogo.png" width="350" alt="..." /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars ms-1"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                                <li class="nav-item"><a class="nav-link" href="Qutoes.html">Quotes</a></li>
+                                <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                                <li class="nav-item"><a class="nav-link" href="SelfImpQuiz.html">Quiz</a></li>
+                                <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                                <li class="nav-item"><a class="nav-link" href="TempPlanner.html">Planner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+    </div>
+    <div class="pageShell">
+        <div class="leftPanel" id="notesColumn">
+            <button id="notesButton" class="addButtons">Add a Note</button>
+        </div>
+        <div class="centralPanel">
+            <div class="calendarHeader">
+                <img src="https://www.clipartmax.com/png/middle/31-316474_calendar-no-background-calendar-no-background.png" width="100px" height="50px">
+                <h1 class="mainTitle"><span id="titleMonth">'Month'</span> <span id="plannerTag">Planner</span> <span id="titleYear">'Year'</span></h1>
+                <img src="https://www.clipartmax.com/png/middle/31-316474_calendar-no-background-calendar-no-background.png" width="100px" height="50px">
+            </div>
+            <div class="calendarContent">
+                <div class="calendarDaysNames" id="calendarSunday">Sunday</div>
+                <div class="calendarDaysNames" id="calendarMonday">Monday</div>
+                <div class="calendarDaysNames" id="calendarTuesday">Tuesday</div>
+                <div class="calendarDaysNames" id="calendarWednesday">Wednesday</div>
+                <div class="calendarDaysNames" id="calendarThursday">Thursday</div>
+                <div class="calendarDaysNames" id="calendarFriday">Friday</div>
+                <div class="calendarDaysNames" id="calendarSaturday">Saturday</div>
+                <div class="calendarDays" id="day1" style="order:8"><span class="calendarDaysText">01</span></div>
+                <div class="calendarDays" id="day2" style="order:9"><span class="calendarDaysText">02</span></div>
+                <div class="calendarDays" id="day3" style="order:10"><span class="calendarDaysText">03</span></div>
+                <div class="calendarDays" id="day4" style="order:11"><span class="calendarDaysText">04</span></div>
+                <div class="calendarDays" id="day5" style="order:12"><span class="calendarDaysText">05</span></div>
+                <div class="calendarDays" id="day6" style="order:13"><span class="calendarDaysText">06</span></div>
+                <div class="calendarDays" id="day7" style="order:14"><span class="calendarDaysText">07</span></div>
+                <div class="calendarDays" id="day8" style="order:15"><span class="calendarDaysText">08</span></div>
+                <div class="calendarDays" id="day9" style="order:16"><span class="calendarDaysText">09</span></div>
+                <div class="calendarDays" id="day10" style="order:17"><span class="calendarDaysText">10</span></div>
+                <div class="calendarDays" id="day11" style="order:18"><span class="calendarDaysText">11</span></div>
+                <div class="calendarDays" id="day12" style="order:19"><span class="calendarDaysText">12</span></div>
+                <div class="calendarDays" id="day13" style="order:20"><span class="calendarDaysText">13</span></div>
+                <div class="calendarDays" id="day14" style="order:21"><span class="calendarDaysText">14</span></div>
+                <div class="calendarDays" id="day15" style="order:22"><span class="calendarDaysText">15</span></div>
+                <div class="calendarDays" id="day16" style="order:23"><span class="calendarDaysText">16</span></div>
+                <div class="calendarDays" id="day17" style="order:24"><span class="calendarDaysText">17</span></div>
+                <div class="calendarDays" id="day18" style="order:25"><span class="calendarDaysText">18</span></div>
+                <div class="calendarDays" id="day19" style="order:26"><span class="calendarDaysText">19</span></div>
+                <div class="calendarDays" id="day20" style="order:27"><span class="calendarDaysText">20</span></div>
+                <div class="calendarDays" id="day21" style="order:28"><span class="calendarDaysText">21</span></div>
+                <div class="calendarDays" id="day22" style="order:29"><span class="calendarDaysText">22</span></div>
+                <div class="calendarDays" id="day23" style="order:30"><span class="calendarDaysText">23</span></div>
+                <div class="calendarDays" id="day24" style="order:31"><span class="calendarDaysText">24</span></div>
+                <div class="calendarDays" id="day25" style="order:32"><span class="calendarDaysText">25</span></div>
+                <div class="calendarDays" id="day26" style="order:33"><span class="calendarDaysText">26</span></div>
+                <div class="calendarDays" id="day27" style="order:34"><span class="calendarDaysText">27</span></div>
+                <div class="calendarDays" id="day28" style="order:35"><span class="calendarDaysText">28</span></div>
+                <div class="calendarDays" id="day29" style="order:36"><span class="calendarDaysText">29</span></div>
+                <div class="calendarDays" id="day30" style="order:37"><span class="calendarDaysText">30</span></div>
+                <div class="calendarDays" id="day31" style="order:38"><span class="calendarDaysText">31</span></div>
+                <div class="calendarDays" style="order:39; order:39; text-indent: -2500px;">IndentJawn</div>
+                <div class="calendarDays" style="order:40; text-indent: -2500px;">IndentJawn</div>
+                <div class="calendarDays" style="order:41; text-indent: -2500px;">IndentJawn</div>
+                <div class="calendarDays" style="order:42; text-indent: -2500px;">IndentJawn</div>
+
+            </div>
+            <div class="formWindow" id="popupWindow">
+                <form id="formContent" class="allForms">
+                    <div class="formWindowHeader">
+                        <h3>Enter Reminder Here!</h3>
+                        <button id="closeWindow" class="exitButtons">Exit</button>
+                    </div>
+                    <textarea id="eventDetails" rows="5" cols="50" class="textAreas"></textarea>     
+                    <button id="submitBtn" class="submitButtons">Save</button>           
+                </form>
+            </div>
+            <div class="formWindow" id="popupWindowNotes">
+                <form id="formContentNotes" class="allForms">
+                    <div class="formWindowHeader">
+                        <h3>Enter Note Here!</h3>
+                        <button id="closeWindowNotes" class="exitButtons">Exit</button>
+                    </div>
+                    <textarea id="notesDetails" rows="5" cols="50" class="textAreas"></textarea>     
+                    <button id="submitBtnNotes" class="submitButtons">Save</button>           
+                </form>
+            </div>
+        </div>
+        <div class="rightPanel" id="eventColumn">
+            <div>
+                <button id="eventButton" class="addButtons">Add Event</button>
+            <div>
+        </div>
+    </div>
+    <script src="../js/Planner.js"></script>
+    <script src="../js/AddEvent.js"></script>
+    <script src="../js/AddNote.js"></script>
+    <script src="../js/classes.js"></script>
+</body>
+</html>
+
